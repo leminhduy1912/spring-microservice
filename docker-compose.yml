@@ -41,7 +41,7 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=minhduy
       - MONGO_INITDB_DATABASE=auth
     networks:
-      - microservices-net  # Đã thêm mạng ở đây
+      - microservices-net
 
   mongo-express:
     container_name: mongo_express
