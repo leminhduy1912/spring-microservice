@@ -68,7 +68,7 @@ services:
       - 1080:1080
       - 1025:1025
     networks:
-      - microservices-net  # Nếu cần, thêm mạng ở đây
+      - microservices-net
 
 networks:
   microservices-net:
